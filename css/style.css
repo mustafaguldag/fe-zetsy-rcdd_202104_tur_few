@@ -8,6 +8,13 @@ body {
 	background: #F3EBE9;
 	font-size: 100%;
 	font-family: 'Times New Roman', serif; 
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: stretch;
+	background-color: #f3ebe9;
 }
 
 .wrapper {
@@ -16,5 +23,28 @@ body {
 	background: #fff;
 	padding: 0 45px 20px;
 }
-
+.anafoto {
+	
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: stretch;
+}
+.ortabolum {
+	
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: stretch;
+	align-content: stretch;
+}
+.logolar {
+	
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: flex-end;
+	align-content: stretch;
+}
 /* Write all remaining styles here */
